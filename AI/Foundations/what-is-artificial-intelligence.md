@@ -1,0 +1,1 @@
+Artificial Intelligence is machine which mimics human intelligence.
