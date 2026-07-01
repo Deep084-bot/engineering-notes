@@ -76,3 +76,156 @@ There are two basic components of an Operating System.
 |     Hardware     |
 +------------------+
 ```
+
+## Types of Operating Systems
+
+Operating Systems can be classified based on **how they execute programs**, **how they utilize hardware**, and **the environment in which they operate**.
+
+> **Note:** An operating system can belong to more than one category. For example, Linux is a multitasking, multiprocessing, and network-capable operating system.
+
+---
+
+### 1. Batch Operating System
+
+A Batch Operating System executes a collection of jobs (called a **batch**) without requiring user interaction during execution.
+Jobs are submitted to the system, grouped together, and executed one after another. Similar to non multi-tasking OS ie one task at a time.
+
+#### Characteristics
+
+- No direct user interaction
+- Jobs are executed sequentially
+- High throughput for repetitive tasks
+- Long turnaround time
+
+#### Advantages
+
+- Efficient for large repetitive workloads
+- Minimal CPU idle time
+
+#### Disadvantages
+
+- No immediate user feedback
+- Difficult to debug jobs
+- Not suitable for interactive applications
+
+**Example:** Early IBM Mainframe Systems
+
+---
+
+### 2. Multiprogramming Operating System
+
+A Multiprogramming Operating System keeps multiple programs in memory simultaneously.
+When one program waits for I/O, the CPU switches to another program instead of remaining idle.
+
+#### Characteristics
+
+- Multiple programs reside in memory
+- Better CPU utilization
+- Improves overall throughput
+
+#### Example
+
+Early UNIX Systems
+
+---
+
+### 3. Multitasking (Time-Sharing) Operating System
+
+A Multitasking Operating System allows multiple tasks to execute seemingly at the same time by rapidly switching the CPU among them.
+Each task receives a small time interval called a **time quantum**.
+This creates the illusion that all applications are running simultaneously.
+
+#### Characteristics
+
+- Interactive
+- Quick response time
+- Supports multiple users or multiple applications
+
+#### Examples
+
+- Windows
+- Linux
+- macOS
+
+---
+
+### 4. Multiprocessing Operating System
+
+A Multiprocessing Operating System uses two or more CPUs (or processor cores) to execute processes simultaneously.
+This increases computational power and improves system reliability.
+
+#### Characteristics
+
+- Parallel execution
+- Higher throughput
+- Better fault tolerance
+
+#### Examples
+
+- Linux
+- Windows Server
+
+---
+
+### 5. Distributed Operating System
+
+A Distributed Operating System connects multiple independent computers through a network and makes them appear as a single unified system.
+Each computer has its own processor and memory but cooperates with others to share resources.
+
+#### Characteristics
+
+- Resource sharing
+- Remote execution
+- Scalability
+- Fault tolerance
+
+#### Examples
+
+- Amoeba
+- Plan 9
+
+---
+
+### 6. Network Operating System (NOS)
+
+A Network Operating System manages communication and resource sharing between multiple computers connected through a network.
+Unlike a Distributed Operating System, users are aware that multiple computers exist.
+
+#### Characteristics
+
+- File sharing
+- Printer sharing
+- User authentication
+- Centralized administration
+
+#### Examples
+
+- Windows Server
+- Novell NetWare
+- UNIX Server
+
+---
+
+### 7. Real-Time Operating System (RTOS)
+
+A Real-Time Operating System guarantees that tasks are completed within a specified time limit.
+The correctness of the system depends not only on the result but also on when the result is produced.
+
+#### Characteristics
+
+- Predictable response time
+- High reliability
+- Deterministic scheduling
+
+#### Applications
+
+- Air Traffic Control
+- Medical Equipment
+- Robotics
+- Missile Guidance Systems
+- Automotive Control Systems
+
+#### Types
+
+- Hard Real-Time OS
+- Soft Real-Time OS
