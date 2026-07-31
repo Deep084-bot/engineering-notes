@@ -27,7 +27,7 @@ After this phase, you should be able to:
 | # | File | Covers |
 |---|---|---|
 | 00 | [Balance Sheet](00-balance-sheet.md) | Assets, Liabilities, Equity, Accounting Equation |
-| 01 | Income Statement | Revenue, Expenses, Profit, EPS (not yet written) |
+| 01 | [Income Statement](01-income-statement.md) | Revenue, Expenses, Profit, EPS |
 | 02 | Cash Flow Statement | Operating, Investing, Financing Cash Flows (not yet written) |
 | 03 | Financial Analysis | Ratios, Trend Analysis, Red Flags (not yet written) |
 
