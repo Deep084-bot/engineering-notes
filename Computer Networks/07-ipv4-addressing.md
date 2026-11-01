@@ -245,4 +245,4 @@ Hosts per subnet  = 2^(remaining host bits) − 2
 
 ---
 
-← [06-sliding-window](06-sliding-window.md) • [↑ Computer Networks](README.md)
+← [06-sliding-window](06-sliding-window.md) • [↑ Computer Networks](README.md) • [08-routing-fundamentals](08-routing-fundamentals.md) →
