@@ -204,4 +204,4 @@ Rule: hedge when the tail loss is unacceptable,
 
 ---
 
-← [05-tax-efficient-investing](05-tax-efficient-investing.md) • [↑ Phase 8](README.md) • [↑ Finance](../README.md) • [↑ All Notes](../README.md)
+← [05-tax-efficient-investing](05-tax-efficient-investing.md) • [↑ Phase 8](README.md) • [↑ Finance](../README.md) • [Next phase →](../phase-9-retirement-and-pensions/README.md)
