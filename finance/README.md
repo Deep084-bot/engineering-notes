@@ -45,6 +45,7 @@ The handbook is organized into **phases**. Each phase builds on the previous.
 | 6 | Quantitative Finance | Math, statistics, derivatives, pricing models |
 | 7 | AI in Finance | ML models, NLP, LLMs for financial analysis |
 | 8 | Portfolio & Risk Management | Diversification, asset allocation, risk metrics |
+| 9 | [Retirement & Pensions](phase-9-retirement-and-pensions/) | NPS, PPF, EPF/EPS, APY, UPS, SCSS, SSY |
 
 ## Folder Structure
 
@@ -61,7 +62,8 @@ finance/
 ├── phase-5-financial-metrics/
 ├── phase-6-quantitative-finance/
 ├── phase-7-ai-in-finance/
-└── phase-8-portfolio-risk-management/
+├── phase-8-portfolio-risk-management/
+└── phase-9-retirement-and-pensions/
 ```
 
 Each phase folder contains:
@@ -80,7 +82,7 @@ Each phase folder contains:
 ### Across Phases
 
 ```
-Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Phase 8
+Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Phase 8 → Phase 9
 ```
 
 Phase 1 is self-contained. All later phases depend on Phase 1.
@@ -133,6 +135,9 @@ Use this to move through the material linearly or jump to index pages.
 | [Macrotrends](https://www.macrotrends.net/) | Historical data, charts |
 | [NSE India](https://www.nseindia.com/) | Indian market data |
 | [BSE India](https://www.bseindia.com/) | Indian market data |
+| [PFRDA](https://www.pfrda.org.in/) | Pension regulation, NPS/APY/UPS rules |
+| [NPS Trust](https://npstrust.org.in/) | NPS circulars, statements, calculators |
+| [EPFO](https://www.epfindia.gov.in/) | EPF/EPS member services |
 
 ## Recommended YouTube Channels
 
