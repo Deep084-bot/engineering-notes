@@ -19,6 +19,8 @@ graph TD
     P5 --> P8
     P6 --> P8
     P7 --> P8
+    P5 --> P9[Phase 9<br/>Retirement & Pensions]
+    P8 --> P9
 ```
 
 ## Reading Flow
@@ -47,7 +49,8 @@ flowchart LR
     P6 --> P8
     P7 --> P8
     
-    P8 --> DONE([Done])
+    P8 --> P9[Phase 9<br/>Retirement & Pensions]
+    P9 --> DONE([Done])
 ```
 
 ## Recommended Paths
@@ -55,7 +58,7 @@ flowchart LR
 ### Full Track (everything)
 
 ```
-P1 → P2 → P3 → P4 → P5 → P6 → P7 → P8
+P1 → P2 → P3 → P4 → P5 → P6 → P7 → P8 → P9
 ```
 
 ### Fundamental Analysis Track
@@ -74,6 +77,12 @@ P1 → P2 → P4 → P6 → P8
 
 ```
 P1 → P2 → P3 → P5 → P7
+```
+
+### Retirement Track
+
+```
+P1 → P2 → P5 → P8 → P9
 ```
 
 ## Phase Descriptions
@@ -121,6 +130,12 @@ mindmap
       Diversification
       Risk metrics
       Rebalancing
+    P9 Retirement & Pensions
+      NPS
+      PPF
+      EPF and EPS
+      APY and UPS
+      SCSS and SSY
 ```
 
 ## Phase Details
@@ -135,10 +150,11 @@ mindmap
 | 6 | Quantitative Finance | Phase 3 or 4 | Build pricing models |
 | 7 | AI in Finance | Phase 3, 5 | Build financial AI systems |
 | 8 | Portfolio & Risk | Phase 3, 5, 6 | Manage investment portfolios |
+| 9 | Retirement & Pensions | Phase 1, 5, 8 | Plan and fund retirement |
 
 ## How to Use This
 
 1. Start with **Phase 1** regardless of your goal
 2. Use the dependency graph to decide what to study next
-3. Follow a track that matches your interest (fundamentals, quant, AI)
+3. Follow a track that matches your interest (fundamentals, quant, AI, retirement)
 4. Each phase builds on previous knowledge — don't skip prerequisites
