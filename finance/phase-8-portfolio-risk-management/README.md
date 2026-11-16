@@ -44,4 +44,4 @@ After this phase, you should be able to:
 
 ---
 
-**All 8 phases complete.** See [the finance README](../README.md) and [learning roadmap](../learning-roadmap.md) for the full picture.
+**Phase 8 complete.** Continue to [Phase 9 — Retirement & Pensions](../phase-9-retirement-and-pensions/README.md). See [the finance README](../README.md) and [learning roadmap](../learning-roadmap.md) for the full picture.
